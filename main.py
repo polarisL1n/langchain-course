@@ -28,7 +28,7 @@ Musk's political activities, views, and statements have made him a polarizing fi
     summary_template_prompt = PromptTemplate.from_template(summary_template)
 
     llm = ChatDeepSeek(
-      model="deepseek-v4-pro",
+      model="deepseek-v4-flash",
       temperature=0.3
     )
 
